@@ -1,0 +1,13 @@
+{
+  "name": "atamasu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Utility scripts for managing Claude.ai personal workflows.",
+  "scripts": {
+    "delete-old-history": "node scripts/delete-old-history.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
